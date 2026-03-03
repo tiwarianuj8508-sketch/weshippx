@@ -14,7 +14,8 @@ overflow-x:hidden;
 /* HERO */
 .hero{
 height:100vh;
-background:linear-gradient(135deg,#000,#111,#1b1b1b);
+background:#fffff;
+color:white;
 display:flex;
 flex-direction:column;
 }
@@ -136,4 +137,5 @@ background:black;
 color:#777;
 
 }
+
 
