@@ -6,7 +6,7 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#050505;
+background:#ff7a00;
 color:white;
 overflow-x:hidden;
 }
@@ -134,4 +134,5 @@ padding:20px;
 text-align:center;
 background:black;
 color:#777;
+
 }
