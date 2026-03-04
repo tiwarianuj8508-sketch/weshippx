@@ -10,33 +10,53 @@ body{
   font-family:Arial, sans-serif;
 }
 
+body{
+margin:0;
+padding:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:radial-gradient(circle at top,#1f2937,#020617);
+font-family:Arial, sans-serif;
+}
+
 .logo{
-  font-size:40px;
-  font-weight:bold;
-  display:flex;
-  align-items:center;
+font-size:90px;
+font-weight:bold;
+letter-spacing:2px;
+animation:fadeIn 2s ease;
 }
 
 .we{
-  color:#2563EB; /* Blue */
+color:#2563EB;
 }
 
 .shipp{
-  color:#ffffff; /* White */
+color:white;
 }
 
 .x{
-  background:linear-gradient(45deg,#ff6a00,#ff3d00);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+background:linear-gradient(45deg,#ff6a00,#ff3d00);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
 }
 
-.arrow{
-  color:#ff6a00;
-  font-size:35px;
-  margin-left:5px;
+.logo:hover{
+transform:scale(1.05);
+transition:0.4s;
 }
 
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
 /* HERO */
 .hero {
 background: radial-gradient(circle at top, #1f2937, #020617);
@@ -162,6 +182,7 @@ background:black;
 color:#777;
 
 }
+
 
 
 
