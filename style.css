@@ -12,12 +12,11 @@ overflow-x:hidden;
 }
 
 /* HERO */
-.hero{
-height:100vh;
-background:#fffff;
-color:white;
-display:flex;
-flex-direction:column;
+.hero {
+background: radial-gradient(circle at top, #1f2937, #020617);
+color: white;
+padding: 100px 20px;
+text-align: center;
 }
 
 nav{
@@ -137,5 +136,6 @@ background:black;
 color:#777;
 
 }
+
 
 
