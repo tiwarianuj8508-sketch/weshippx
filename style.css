@@ -57,6 +57,74 @@ opacity:1;
 transform:translateY(0);
 }
 }
+body{
+margin:0;
+font-family:Arial;
+background:radial-gradient(circle at top,#1f2937,#020617);
+color:white;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:center;
+height:100vh;
+padding:40px;
+}
+
+.hero-left{
+max-width:600px;
+}
+
+.logo{
+font-size:70px;
+margin-bottom:10px;
+}
+
+.we{
+color:#2563EB;
+}
+
+.shipp{
+color:white;
+}
+
+.x{
+color:#ff6a00;
+}
+
+h2{
+font-size:40px;
+margin-top:10px;
+}
+
+p{
+color:#cbd5e1;
+margin-bottom:25px;
+}
+
+.advantages{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+margin-bottom:30px;
+}
+
+.adv{
+background:rgba(255,255,255,0.08);
+padding:15px;
+border-radius:12px;
+}
+
+.btn{
+background:linear-gradient(90deg,#ff6a00,#ff3d00);
+border:none;
+padding:14px 30px;
+color:white;
+font-size:16px;
+border-radius:30px;
+cursor:pointer;
+}
 /* HERO */
 .hero {
 background: radial-gradient(circle at top, #1f2937, #020617);
@@ -182,6 +250,7 @@ background:black;
 color:#777;
 
 }
+
 
 
 
